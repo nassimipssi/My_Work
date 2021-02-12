@@ -1,0 +1,273 @@
+body {
+  background: center / cover no-repeat url(image/Image_Font.png);
+  background-attachment: fixed;
+  margin: 0px;
+}
+header {
+  display: flex; /* pour aligner */
+  text-align: center;
+  font-size: 21px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#Logo {
+  border: 0px solid;
+  width: 30%;
+  position: relative;
+  top: 5px;
+  margin: auto;
+}
+#recherche {
+  border: 0px solid;
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* mettre a droit la barrede NAV*/
+  flex-wrap: wrap; /* quand je zoom sa descend */
+  font-size: 100%;
+}
+nav li {
+  float: left; /* pour aligner */
+  margin: 10px 60px 7px 30px;
+}
+nav a {
+  text-decoration: none; /* enlever le surlignage d'un lien*/
+  color: white;
+}
+nav a:visited {
+  color: white;
+}
+nav a:hover {
+  color: rgb(54, 54, 219);
+  border-bottom: 3px solid rgb(54, 54, 219);
+}
+hr {
+  background-color: white;
+  border: 1px solid white;
+}
+.bloc1 {
+  background-color: yellow;
+  position: relative; /* la position*/
+  top: 250px;
+  height: 230px;
+  width: 600px;
+  left: 200px;
+}
+.Bloc1_2 {
+  display: flex;
+  position: relative;
+  top: -10px;
+}
+.bloc11 {
+  text-align: center;
+  font-size: 33px;
+}
+.bloc12 {
+  padding: 5px;
+  text-align: justify;
+  font-size: 20px;
+}
+.B {
+  border: 0px solid;
+  position: relative;
+  left: 10px;
+}
+
+.C {
+  border: 1px solid black;
+  padding: 2px;
+  position: relative;
+  left: 95px;
+  text-decoration: none; /* enlever le surlignage d'un lien*/
+  color: black;
+  border-radius: 8px;
+}
+.C:hover {
+  /* metre un font*/
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: all 1000ms ease; /* pour metre un font progresive*/
+}
+.Test {
+  display: flex;
+  flex-direction: column;
+}
+.bloc3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e0e0e0;
+  position: relative;
+  top: 410px;
+  width: 100%;
+
+}
+.bloc31 {
+  text-align: center;
+}
+.bloc311 {
+  width: 70%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.bloc312 {
+  width: 70%;
+  margin-bottom: 30px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center space-between;
+}
+.bloc313 {
+  width: 70%;
+  margin-bottom: 30px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.Title {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: rgb(54, 54, 219);
+}
+.image {
+  padding-left: 2px;
+  border: 1px solid;
+}
+/*.bloc_image1 {
+  background-image: url("image/store.PNG");
+  background-size: cover;
+  width: 100%;
+  border: red solid;
+}*/
+.image1{
+  width: 50%;
+}
+.imaget{
+  width: 100%;
+  height: 100%;
+}
+.image2{
+  width: 58%;
+  
+}
+.imaget2{
+  width: 100%;
+  height: 100%;
+}
+.image3{
+  width: 80%;
+  
+}
+.imaget3{
+  width: 100%;
+  height: 100%;
+}
+.image4{
+  width: 70%;
+  
+}
+.imaget4{
+  width: 100%;
+  height: 100%;
+}
+/*.bloc_image2 {
+  background-image: url("image/Cap1.PNG");
+  background-size: cover;
+  width: 100%;
+}
+.bloc_image3 {
+  background-image: url("image/Cap2.PNG");
+  background-size: cover;
+  width: 100%;
+}
+.bloc_image4 {
+  background-image: url("image/Cap3.PNG");
+  background-size: cover;
+  width: 100%;
+}*/
+.Text {
+  font-size: 25px;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.p{
+  padding: 0px 7px;
+  margin:  auto 0px;
+  font-size: x-large;
+}
+.bloc4 {
+  width: 100%;
+  position: relative;
+  top: 410px;
+  background-color: white;
+  padding-top: 20px;
+}
+.Title2 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0px;
+}
+.Wave{
+  color: rgb(54, 54, 219);
+}
+.conteneur {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  width: fit-content;
+}
+.round_image{
+  border-radius: 50%;
+  height: 300px;
+}
+.People{
+  text-align: center;
+}
+.name > td{
+  vertical-align: top;
+}
+.name > td > h1{
+  margin-bottom: 0;
+}
+.ligne > td > p{
+  font-size: 28px;
+  margin-top: 0;
+}
+.ligne{
+  vertical-align: top;
+
+}
+.bloc5
+{
+  display: flex;
+  flex-direction: column;
+  background-color: #e0e0e0;
+  position: relative;
+  top: 410px;
+  width: 100%;
+}
+.bloc5{
+  text-align: center;
+}
+.Social_networks{
+  width: 100%;
+  
+}
+.test3{
+  display: flex;
+  justify-content: center; 
+}
+.test4{
+ 
+  width: 40px;
+}

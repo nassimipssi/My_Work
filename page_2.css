@@ -1,0 +1,120 @@
+body {
+    background: center / cover no-repeat url(image/Page.jpg);
+    background-attachment: fixed;
+    height: 300px;
+    margin: 0;
+  }
+  .bloc_page {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    display: flex; /* pour aligner */
+    justify-content: space-between;
+    text-align: center;
+    font-size: 21px;
+    font-family: "Nanum Gothic", sans-serif;
+  }
+  #Logo {
+    border: 0px solid;
+    width: 30%;
+    position: relative;
+    top: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 15px 100px 0px 0px;
+    width: 25px;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 50px;
+  }
+  li {
+    width: 100%;
+  }
+  .Home {
+    width: 60%;
+  }
+  hr {
+    background-color: white;
+    border: 1px solid white;
+  }
+  .bloc2 {
+    background-color: white;
+    position: relative;
+    top: 400px;
+  }
+  .description {
+    width: auto;
+    margin: auto;
+  }
+  .bloc21 {
+    text-align: center;
+    font-size: 25px;
+    margin: 5pxauto;
+  }
+  .bloc3 {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 400px;
+  }
+  .tableau {
+    flex-wrap: wrap;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    border: 1px solid;
+    background-color: #e0e0e0;
+  
+  }
+  .tableau_size{
+    width: auto;
+  }
+  .tel_description{
+    margin: auto;
+    width: fit-content;
+    vertical-align: top;
+    height: 100%;
+  }
+  .tel_description > p {
+    text-align: left;
+  }
+  .Name{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .Comment{
+    background-color: white;
+    position: relative;
+    top: 400px;
+    padding: 20px 0px;
+  }
+  .bloc5{
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e0e0;
+    position: relative;
+    top: 400px;
+    width: 100%;
+  }
+  .bloc5{
+    text-align: center;
+  }
+  .Logo_Mutuel{
+    width: 100px;
+  }
+  .Social_networks{
+    width: 60%;
+  }
+  .test3{
+    display: flex;
+    justify-content: center; 
+  }
+  .test4{
+   
+    width: 40px;
+  }
